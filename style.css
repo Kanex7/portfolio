@@ -1,0 +1,45 @@
+body{
+    font-family: arial;
+    background-color:  rgb(106, 106, 247);
+}
+
+header{
+    background-color: rgb(71, 71, 175);
+    display:flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.logo{
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    align-self: center;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-content: space-between;
+    margin-right: 20px;
+}
+
+li{
+    padding: 15px;
+}
+
+.acerca-imagen{
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+.carrusel-imagen{
+    img{
+        width: 700px;
+        height: 700px;
+    }
+}

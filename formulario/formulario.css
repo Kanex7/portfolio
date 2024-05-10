@@ -1,0 +1,46 @@
+body{
+    font-family: arial;
+    background-color:  rgb(106, 106, 247);
+}
+
+header{
+    background-color: rgb(71, 71, 175);
+    display:flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.logo{
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    align-self: center;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-content: space-between;
+    margin-right: 20px;
+}
+
+li{
+    padding: 15px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.mensaje{
+    display:flex;
+    align-items: flex-start;
+}
+
+
+label[for=mensaje]{
+    vertical-align: top;
+}
